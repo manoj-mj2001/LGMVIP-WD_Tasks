@@ -30,7 +30,7 @@ function data(){
     email.innerHTML="E-mail : "+element[1].value;
     website.innerHTML="Website : "+element[2].value;
     img.src="images/user-img.jpg";
-    img.alt="Student Image";
+    img.alt="Image";
     if(element[3].value !="")
     {
         img.src=i;

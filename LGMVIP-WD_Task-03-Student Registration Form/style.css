@@ -6,35 +6,49 @@ body {
   height: 100%;
   width: 100%;
   text-align: center;
-  background: url("./back_img.jpg");
+  background: url("./purple-background-registration.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 h1 {
-  padding: 10px;
-  color:cornsilk;
+  padding: 3px;
+  color:whitesmoke;
 }
 
 label {
   font-size: 1.3rem;
   font-weight: 600;
+  color: whitesmoke;
 }
 
 .container {
   text-align: center;
-  width: 35%;
-  height: 520px;
+  width: 33%;
+  height: 510px;
   padding-top: 30px;
-  margin: 3% 15% 0 5%;
-  background-color:rgba(255, 255, 255, 0);
-  border-radius: 5px;
-  border: 6px solid white;
+  margin: -0.5% 15% 0 5%;
+  background-color:transparent;  
+  border-radius: 15px;
+  border: 3px solid white;
 }
 
 .box {
   display: flex;
   text-align: center;
+
+}
+
+.title{
+  display: flex;
+  justify-content: space-around;
+}
+
+h3{
+  text-align:start;
+  color: whitesmoke;
+  font-size:30px;
+  margin-left:-80px;
 }
 
 .f1 {
@@ -80,24 +94,25 @@ label {
 }
 
 .display h2 {
-  margin-left: 20%;
+  margin-left: 18%;
   color:snow;
 }
 
 .d {
   margin-bottom: 10px;
+  margin-left: 75px;
   width: 63%;
   height:210px;
-  border: 4px solid white;
-  background-color: rgba(255, 255, 255, 0);
-  border-radius: 6px;
+  border: 3px solid white;
+  background-color:transparent;
+  border-radius: 9px;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 13px;
   font-family: 'Times New Roman', Times, serif;
-  font-size: medium;
-  font-weight: 800;
-  color: aliceblue;
+  font-size:18px;
+  font-weight: 900;
+  color: whitesmoke;
 }
 
 .f1 input {
@@ -139,6 +154,7 @@ label {
   text-align: center;
   height:40px;
 }
+
 .submit:hover {
  transition: all 0.4s ease-in-out;
  transform: scale(1.2);
