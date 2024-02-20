@@ -1,0 +1,116 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background:url('todos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.container{
+    width: 30%;
+    top: 34%;
+    left: 50%;
+    background:transparent;
+    border-radius: 10px;
+    min-width: 450px;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    margin-top:40px;
+}
+
+#newtask{
+    position:relative;
+    padding: 30px 20px;
+}
+
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    border-radius: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.685);
+    background: transparent;
+    position:relative;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 600;
+    font-size: 18px;
+    background-color:#0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 7px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#newtask button:hover{
+    background-color: rgb(9, 182, 9);
+}
+
+#tasks{
+    width: 100%;
+    position:fixed;
+    background-color:transparent;
+    padding: 30px 20px;
+    margin-top: 3px;
+}
+
+.task{
+    border-radius: 7px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.677);
+    cursor: pointer;
+    background-color: #c5e1e65d;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    display: flex;
+}
+
+.task span{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.task button{
+    background-color:#0d75ec;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 80px;
+    border-radius: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.task button:hover{
+    background-color:red;
+    color:whitesmoke;
+}
