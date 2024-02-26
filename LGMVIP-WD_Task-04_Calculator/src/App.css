@@ -68,10 +68,6 @@
     background-color:purple;
   }
 
-  form input.del:hover{
-    background-color:rgb(16, 183, 16);
-  }
-
   form input.fun:hover{
     background-color:orangered;
   }

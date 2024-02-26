@@ -3,7 +3,12 @@ import './App.css';
 
 function App() {
   const [value, setValue] = useState('');
-
+  const audio=new Audio("../Clicksound.mpeg");
+  const button = document.querySelector('[type="button"]');
+    if (button)
+    {
+      button.addEventListener('click', audio.play());
+    }
   return (
     
     <div className="container">
@@ -14,7 +19,7 @@ function App() {
             </div>
           <div>
             <input type="button" value="AC" onClick={e => setValue('')}/>
-            <input type="button" value="DEL" className='del' onClick={e => setValue(value.slice(0, -1))}/>
+            <input type="button" value="DEL" onClick={e => setValue(value.slice(0, -1))}/>
             <input type="button" value="." className='fun' onClick={e => setValue(value + e.target.value)}/>
             <input type="button" value="/" className='fun' onClick={e => setValue(value + e.target.value)}/>
           </div>
